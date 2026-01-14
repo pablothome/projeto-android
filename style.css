@@ -47,7 +47,7 @@ header {
     text-align: center;
     color: white;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.308);
-    padding-top: 20px 0;
+    padding-top: 20px;
 }
 
 header>h1 {
@@ -100,7 +100,7 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.74);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.048);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 
@@ -131,20 +131,20 @@ main p {
     line-height: 1.5em;
     margin: 15px 0px;
     font-size: 1em;
-    text-indent: 30px;
+    
 
 }
 
 main strong {
     color: var(--cor4);
-    font-weight: bolder;
+    font-weight: bolder;    
 
 }
 
 main a {
     text-decoration: none;
     font-weight: bolder;
-    color: var(cor5);
+    color: var(--cor5);
     background-color: var(--cor1);
     padding: 2px 6px;
 }
